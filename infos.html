@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/infos.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="night day">
+        <header>
+          <input
+            type="button"
+            class="home"
+            onclick="window.location.href='main.html'"
+          />
+          <div class="searchbar">
+            <input type="text" id="inputCity" placeholder="Search for city" />
+            <input type="button" class="search" onclick="weatherData()" />
+          </div>
+          <input type="button" class="back" onclick="history.back()" />
+        </header>
+        <main>
+          <h1>city name</h1>
+          <section class="information">
+            <div class="box min">
+              <p>Minimum Temperature</p>
+              <div>
+                <img
+                  src="./assets/img/infopage/temperature-arrow-down-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="box max">
+              <p>Maximum Temperature</p>
+              <div>
+                <img
+                  src="./assets/img/infopage/temperature-arrow-up-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="box feel">
+              <p>Feels like</p>
+              <div>
+                <img
+                  src="./assets/img/infopage/temperature-feels-like-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="box humid">
+              <p>Humidity</p>
+              <div>
+                <img
+                  src="./assets/img/infopage/humidity-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="box sunrise">
+              <p>Sunrise</p>
+              <div>
+                <img
+                  src="./assets/img/infopage/sunrise-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="box sunset">
+              <p>Sunset</p>
+              <div>
+                <img
+                  src="./assets/img/infopage/sunset-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="box pressure">
+              <p>Pressure</p>
+              <div>
+                <img
+                  src="./assets/img/infopage/pressure-svgrepo-com.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="box wind">
+              <p>Wind speed</p>
+              <div>
+                <img src="./assets/img/infopage/wind-svgrepo-com.svg" alt="" />
+              </div>
+            </div>
+          </section>
+        </main>
+        <script src="./assets/js/infos.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
