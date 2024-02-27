@@ -104,6 +104,7 @@ const myWeatherData = (lat, lon) => {
       currentWeather(lat, lon, myData[0].name);
     });
 };
+// IN CASE USER DOESNT ALLOW PUT A RANDOM CITY IN
 const myPosition = () => {
   navigator.geolocation.getCurrentPosition((position) => {
     city_name.value = "";
