@@ -1,8 +1,8 @@
 <h1 align="center"><samp>Weather App</samp> </h1>
 <p align="center"> 
-  <a href="https://github.com/xoFrey" target="_blank"> <img width="40" align="center" src="./public/img/icons/icons8-github-64.png"/></a>
-  <a href="https://movie-db-project-sigma.vercel.app" target="_blank"> <img width="45" align="center" src="./public/img/icons/icons8-livepage-64.png"/></a>
-  <a href="https://www.linkedin.com/in/izel-acar-0572332ba/" target="_blank"> <img width="40" align="center" src="./public/img/icons/icons8-linkedin-64.png"/></a>
+  <a href="https://github.com/xoFrey" target="_blank"> <img width="40" align="center" src="./assets/img/icons/icons8-github-64.png"/></a>
+  <a href="https://movie-db-project-sigma.vercel.app" target="_blank"> <img width="45" align="center" src="./assets/img/icons/icons8-livepage-64.png"/></a>
+  <a href="https://www.linkedin.com/in/izel-acar-0572332ba/" target="_blank"> <img width="40" align="center" src="./assets/img/icons/icons8-linkedin-64.png"/></a>
 </p>
 
 
@@ -10,6 +10,8 @@
 <ul>
 <li><samp>HTML5</samp></li>
 <li><samp>CSS</samp></li>  
+<li><samp>JavaScript ES6+</samp></li>    
+<li><samp>Open Weather API</samp></li>  
 </ul>
 
 <hr/>
